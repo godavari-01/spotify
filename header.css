@@ -1,0 +1,331 @@
+#header {
+  /* border: 2px solid; */
+  height: 430px;
+  background-color: rgb(161, 36, 139);
+}
+
+#sub-header {
+  width: 77%;
+  /* border: 2px solid yellow; */
+  height: inherit;
+  margin: 0% auto;
+}
+
+#left-aside {
+  /* border: 2px solid; */
+  height: inherit;
+  color: white;
+}
+
+#left-aside h1 {
+  padding-top: 40px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#left-aside h2 {
+  padding-top: 30px;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+#btn {
+  /* border: 2px solid; */
+  margin-top: 30px;
+  height: inherit;
+}
+#btnn {
+  /* display: flex; */
+}
+#btn1 {
+  border: 2px solid;
+  margin-top: 20px;
+  height: 50px;
+  width: 240px;
+  background-color: black;
+  border-radius: 50px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff;
+  border: none;
+}
+#btn1:hover {
+  cursor: pointer;
+  /* transform: (1, 1); */
+}
+#btn2 {
+  border: 2px solid white;
+  margin-left: 25px;
+  height: 50px;
+  width: 160px;
+  background: none;
+  border-radius: 50px;
+  font-size: 15px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  /* margin-right: 100px; */
+}
+#img1 {
+  /* border: 2px solid; */
+  height: 370px;
+  width: 370px;
+  background-image: url(./ab671c3d0000f43082d40a052ba61c947f02e107.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 100px;
+  left: 62%;
+}
+
+#para {
+  font-weight: 100;
+  margin-top: 40px;
+  line-height: 1.5;
+}
+/* 
+**********************************
+Section power 
+
+**********************************
+*/
+#power {
+  margin-top: 80px;
+}
+#power #powerhead {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+#power ul {
+  margin-top: 70px;
+  margin-left: 150px;
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  text-align: center;
+}
+#power ul div {
+  width: 260px;
+  height: auto;
+}
+#power ul div li img {
+  height: 120px;
+  width: 120px;
+}
+.img-title {
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.img-title1 {
+  line-height: 1.5;
+  font-size: 16px;
+}
+/* ******************************* */
+/* Pic your premimum */
+/* ******************************* */
+/* Box shadow
+rgba(0, 0, 0, 0.3) 0px 0px 8px; 
+*/
+.pic-premium {
+  margin-top: 130px;
+  width: 77%;
+  /* border: 2px solid yellow; */
+  /* height: inherit; */
+  margin: 130px auto 0px auto;
+}
+.premium-head {
+  text-align: center;
+  line-height: 1.5;
+}
+.premium-head h1 {
+  font-size: 40px;
+  font-weight: 700;
+  /* text-align: center; */
+}
+.trans-img {
+  display: inline-block;
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 16px;
+}
+.trans-img-img {
+  height: 30px;
+  width: 30px;
+}
+
+.show-prices {
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, auto);
+  grid-auto-flow: row; */
+  /* -webkit-box-pack: center; */
+  /* justify-content: center; */
+  display: flex;
+  gap: 20px;
+  /* column-gap: 15px; */
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.box {
+  display: inline-block;
+  height: 550px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+.show {
+  background-color: #fff;
+  padding: 20px;
+  height: 200px;
+  width: 270px;
+  /* box-shadow: rgb(255, 255, 255) 0px 8px 0px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px; */
+  border-radius: 10px 10px 0px 0px;
+}
+.shadow-2nd {
+  /* padding: 24px; */
+  background-color: #fff;
+  /* box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 8px; */
+  height: 170px;
+  width: 270px;
+}
+.btnshow {
+  /* box-shadow: rgb(255, 255, 255) 0px -9px 0px 0px,
+    rgba(0, 0, 0, 0.3) 0px 0px 8px; */
+  text-align: center;
+}
+.footershow {
+  border-radius: 0px 0px 10px 10px;
+  /* box-shadow: rgb(255, 255, 255) 0px -9px 0px 0px,
+    rgba(0, 0, 0, 0.3) 0px 3px 8px; */
+  height: 100px;
+  width: 270px;
+  padding: 14px 28px;
+
+  /* box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 8px; */
+}
+.footershow p {
+  font-size: 12px;
+  color: black;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:active {
+  color: black;
+}
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* show prices */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+ul {
+  list-style: none;
+}
+.one-time {
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid rgb(13, 114, 234);
+  color: rgb(13, 114, 234);
+  border-radius: 4px;
+  padding: 4px 8px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.sub-fee {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: rgb(13, 114, 234);
+  padding: 4px 8px;
+  border: 1px solid rgb(13, 114, 234);
+  color: #fff;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.typeofsub {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 24px;
+  margin: 0px 0px 5px;
+  padding: 0px;
+}
+.parashow {
+  color: rgb(0, 0, 0);
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 0px 0px 2px;
+}
+.show p:last-of-type {
+  margin-bottom: 20px;
+}
+
+.line1 {
+  margin-bottom: 57px !important;
+}
+.line {
+  /* margin-top: 20px; */
+
+  border-color: rgb(204, 204, 204);
+  /* margin-top: 100%; */
+  /* margin: auto 0px 0px; */
+}
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* SECOND BOX GRIG */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+.shadow-2nd {
+  padding: 20px;
+  padding-top: 0px;
+  /* box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 8px; */
+}
+.listshodow2nd {
+  display: flex;
+  line-height: 22px;
+  gap: 10px;
+  justify-items: center;
+}
+/* **************************************************** */
+/*Special discount for eligible students in university  */
+/* ****************************************************** */
+.discount {
+  display: flex;
+
+  justify-content: center;
+  justify-items: center;
+  /* justify-content: space-between; */
+  gap: 30px;
+
+  /* border: 1px solid black; */
+  width: 55%;
+  text-align: center;
+  margin: 0px auto;
+
+  padding: 20px 5px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+
+  margin-bottom: 50px;
+}
+.discount div h2 {
+  margin-top: 10px;
+}
+.more {
+  text-align: center;
+  /* margin-bottom: 15px; */
+  /* font-size: 14px; */
+  font-weight: 600;
+  border: 2px solid black;
+  border-radius: 30px;
+  /* padding: 20px 5px; */
+}
+.learnmore {
+  padding: 15px 30px;
+}

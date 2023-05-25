@@ -1,0 +1,109 @@
+.footesction {
+  background-color: black;
+  color: #fff;
+}
+footer {
+  margin: 50px auto 0px auto;
+  padding: 50px 0px;
+}
+.spotify {
+  height: 2.7em;
+  fill: white;
+}
+footer nav {
+  width: 77%;
+  margin: 50px auto;
+  display: flex;
+  gap: 80px;
+}
+.list-of-links {
+  margin-top: 20px;
+  display: flex;
+  gap: 80px;
+}
+dt {
+  font-size: 14px;
+  font-weight: 600;
+  color: #666;
+}
+
+dd {
+  margin: 25px 0px;
+  font-size: 15px;
+  color: #fff;
+}
+dd .a {
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+dd .a:hover {
+  color: #1ed760;
+}
+.social {
+  /* background-color: #fff; */
+  display: block;
+  width: 24px;
+  height: 24px;
+  /* padding: 30px; */
+  fill: #fff;
+}
+.sociallist {
+  display: flex;
+  gap: 10px;
+  margin-left: 100%;
+}
+.instaaa {
+  display: inline-block;
+  padding: 15px;
+  background-color: #222121;
+  border-radius: 100%;
+  margin-bottom: 50px;
+}
+.social:hover {
+  fill: #1ed760;
+}
+.globe {
+  width: 77%;
+  /* width: 77%; */
+  color: #666;
+  margin: 0px auto 0px auto;
+}
+.globe a {
+  display: inline-block;
+  display: flex;
+  justify-content: flex-end;
+  justify-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.globe a p {
+  font-size: 10px;
+  margin-top: 2px;
+}
+.globe a p:hover {
+  color: #1ed760;
+}
+.footerlast {
+  width: 77%;
+  /* width: 77%; */
+  color: #666;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footerlast ul {
+  display: flex;
+  gap: 22px;
+  font-size: 12px;
+}
+.footerlast span {
+  font-size: 12px;
+}
+.footerlast ul li .a {
+  text-decoration: none;
+  color: #fff;
+}
+.footerlast ul li .a:hover {
+  color: #1ed760;
+}
